@@ -11,13 +11,26 @@
     </head>
     <main>
         <form action="" method="get">
-            <label for="nome">Nome:</label><input type="nome" name="nome" id="nome" required>
-            <br><!--Depois tirar esses br-->
-            <label for="nivel">Nível:</label><input type="nivel" name="nivel" id="nivel" required>
-            <br>
-            <label for="universo">Universo:</label><input type="universo" name="universo" id="universo" required>
-            <br>
-            <button>Entrar</button>
+            <fieldset class="elementos-formulario">
+                <legend>Login</legend>
+                <div class="elementos">
+                    <label for="nome">Nome:</label>
+                    <input type="name" name="nome" id="nome" required>
+                </div>
+                <div class="elementos">
+                    <fieldset>
+                        <legend>Nível Acesso:</legend>
+                        <input type="radio" name="nivel" id="nivel1" value="1" checked><label for="nivel1">Nível 1</label>
+                        <input type="radio" name="nivel" id="nivel2" value="2"><label for="nivel2">Nível 2</label>
+                        <input type="radio" name="nivel" id="nivel3" value="3"><label for="nivel3">Nível 3</label>
+                    </fieldset>
+                </div>
+                <div class="elementos">
+                    <label for="universo">Universo:</label>
+                    <input type="text" name="universo" id="universo" required>
+                </div>
+                <button>Entrar</button>
+            </fieldset>
         </form>
     </main>
     <footer>
