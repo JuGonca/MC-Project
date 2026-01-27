@@ -1,14 +1,16 @@
+body{
+    margin: 0;
+}
 header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
+    width: 100%;
     background-color: pink;
 }
-.esquerda{
-    margin-right: 45%;
-}
-nav{
-    margin: 5%; 
+
+.esquerda, .direita{
+    margin: 0% 5%;
 }
 
 #navebar{
@@ -16,14 +18,7 @@ nav{
     justify-content: center;
     list-style-type: none;
     padding: 0;
-    
 }  
-
 .nav-item{
     padding: 5%;
-    
-}
-
-.direita{
-    margin-left: 45%;
 }
