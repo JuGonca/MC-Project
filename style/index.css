@@ -1,6 +1,17 @@
-body{
-    margin: 0;
+html {
+    /*alterar depois*/
+    background-color: #efefef;
 }
+body{
+    margin: 0 auto 0 auto;
+    /*alterar depois*/
+    font: 1.2em / 1.5 system-ui;
+    border: 20px; 
+    width: 500px;   
+
+}
+
+/*Barra de navegação*/
 header{
     display: flex;
     justify-content: space-between;
@@ -21,4 +32,34 @@ header{
 }  
 .nav-item{
     padding: 5%;
+}
+
+/*Sobre*/
+a{
+    color: green;
+}
+a:hover{
+    color: rgb(100, 45, 0);
+    text-decoration: none;
+}
+
+h3{
+    color: darkslategray;
+    border-bottom: 10px dotted purple;
+}
+
+#meu-nome{
+    font-size: 2rem;
+}
+
+#info-contato{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.contato{
+    background-color: white;
+    border:5px solid purple;
+    padding: 30px;
+    border-radius: 20px;
 }
